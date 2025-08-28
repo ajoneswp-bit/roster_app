@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    margin-top: 24px;
+}
+#week-select {
+    display: block;
+    margin: 16px auto;
+    padding: 8px;
+    font-size: 16px;
+}
+#roster-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.section {
+    margin-bottom: 32px;
+}
+.section-title {
+    font-size: 1.5em;
+    margin-bottom: 12px;
+    color: #003366;
+}
+.position {
+    margin-bottom: 16px;
+}
+.position-title {
+    font-size: 1.2em;
+    margin-bottom: 8px;
+    color: #0055aa;
+}
+.players {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.player-card {
+    background: #eaf3fa;
+    border-radius: 6px;
+    padding: 12px;
+    width: 180px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.player-headshot {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 8px;
+    background: #ccc;
+}
+.player-name {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+.player-info {
+    font-size: 0.95em;
+    color: #333;
+}
